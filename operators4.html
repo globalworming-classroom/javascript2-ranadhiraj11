@@ -34,7 +34,7 @@ console.log(luck > 100 ? "much luck" : "could be better") // -> "much luck"
 <script type="application/javascript">
     const runScript = () => {
         const areYouHungry = "yes" ? "oh definitely yes!" : "not really"
-        const isLunchTime = undefined;
+        const isLunchTime = !undefined;
         const eatPizza = isLunchTime && areYouHungry
         document.getElementById("eat").textContent = eatPizza ? "yes" : "no"
     };
